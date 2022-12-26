@@ -59,20 +59,19 @@ public class CalcPageTest {
                 "test will fail, so we will be alerted to look into a potential issue.")
     @Test
     void amountLossUSDCalculation() {
-        boolean lossHasntBeenEncountered = true;
+        boolean lossHasBeenEncountered = false;
         for (CountriesEnum country : CountriesEnum.values()
         ) {
             calcPage.openCalcPage(country);
             List<Float> amountValues = calcPage.getAmountValues();
-            boolean isAmountLossEncountered = calcPage.isPayseraUSDAmountHigher(amountValues);
-            if (isAmountLossEncountered) {
+            lossHasBeenEncountered = calcPage.isPayseraUSDAmountHigher(amountValues);
+            if (lossHasBeenEncountered) {
                 calcPage.assertAmountLossValue(amountValues);
-                lossHasntBeenEncountered = false;
                 break;
             }
         }
         assertThat("Amount loss hasn't been encountered for all countries," +
-                            "please verify manually", lossHasntBeenEncountered, is(false));
+                            "please verify manually", lossHasBeenEncountered, is(true));
     }
 
 }
