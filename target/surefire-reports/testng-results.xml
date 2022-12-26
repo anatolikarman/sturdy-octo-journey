@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-26T16:39:28 GET" name="Surefire suite" finished-at="2022-12-26T16:40:24 GET" duration-ms="55475">
+    <groups>
+    </groups>
+    <test started-at="2022-12-26T16:39:28 GET" name="Surefire test" finished-at="2022-12-26T16:40:24 GET" duration-ms="55475">
+      <class name="CalcPageTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:39:28 GET" name="init" finished-at="2022-12-26T16:39:28 GET" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="amountLossUSDCalculation()[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:39:28 GET" name="amountLossUSDCalculation" finished-at="2022-12-26T16:39:37 GET" duration-ms="8841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amountLossUSDCalculation -->
+        <test-method is-config="true" signature="init()[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:39:37 GET" name="init" finished-at="2022-12-26T16:39:37 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="buyEmptied()[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:39:37 GET" name="buyEmptied" finished-at="2022-12-26T16:39:41 GET" duration-ms="4186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyEmptied -->
+        <test-method signature="countrySwitchViaMenuUpdates(Enums.CountriesEnum)[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:39:41 GET" name="countrySwitchViaMenuUpdates" data-provider="countries" finished-at="2022-12-26T16:39:51 GET" duration-ms="9683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALBANIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countrySwitchViaMenuUpdates -->
+        <test-method is-config="true" signature="init()[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:39:41 GET" name="init" finished-at="2022-12-26T16:39:41 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:39:51 GET" name="init" finished-at="2022-12-26T16:39:51 GET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="countrySwitchViaMenuUpdates(Enums.CountriesEnum)[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:39:51 GET" name="countrySwitchViaMenuUpdates" data-provider="countries" finished-at="2022-12-26T16:40:01 GET" duration-ms="9629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ROMANIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countrySwitchViaMenuUpdates -->
+        <test-method is-config="true" signature="init()[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:40:01 GET" name="init" finished-at="2022-12-26T16:40:01 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="countrySwitchViaMenuUpdates(Enums.CountriesEnum)[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:40:01 GET" name="countrySwitchViaMenuUpdates" data-provider="countries" finished-at="2022-12-26T16:40:11 GET" duration-ms="9993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countrySwitchViaMenuUpdates -->
+        <test-method is-config="true" signature="init()[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:40:11 GET" name="init" finished-at="2022-12-26T16:40:11 GET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="countrySwitchViaMenuUpdates(Enums.CountriesEnum)[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:40:11 GET" name="countrySwitchViaMenuUpdates" data-provider="countries" finished-at="2022-12-26T16:40:20 GET" duration-ms="9478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BULGARIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countrySwitchViaMenuUpdates -->
+        <test-method is-config="true" signature="init()[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:40:20 GET" name="init" finished-at="2022-12-26T16:40:20 GET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="sellEmptied()[pri:0, instance:CalcPageTest@77be656f]" started-at="2022-12-26T16:40:20 GET" name="sellEmptied" finished-at="2022-12-26T16:40:24 GET" duration-ms="3462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellEmptied -->
+      </class> <!-- CalcPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
